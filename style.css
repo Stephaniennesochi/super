@@ -1,0 +1,115 @@
+/* Reset some default styles */
+body, h1 {
+    color: bisque;
+    background-image: url(./img/images.jpg);
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+h6 {
+    background-image: url(./img/images.jpg);
+    color:beige;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    background-image: url(./img/images.jpg);
+    color: lightblue;
+    text-align: center;
+
+
+}
+h2 {
+    background-image: url(./img/images.jpg);
+    color:wheat;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.bet {
+    position: absolute;
+    bottom: 2%;
+    left: 20%;
+    align-items: center;
+}
+
+.but{
+    position: absolute;
+    top: 740px;
+    left: 660px;
+    align-items: center;
+}
+.post {
+        position: absolute;
+        width: 82%;
+        left: 10%;
+}
+
+.pen {
+    float: right;
+    
+
+}
+
+/* Basic styling for header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    font-size: xx-large;
+    text-align: center;
+    background-image: url(./img/images.jpg);
+}
+
+
+/* Style the search container */
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-image: url(./img/images.jpg);
+}
+
+/* Style the input field */
+input[type="text"] {
+    width: 10%;
+    padding: 8px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+}
+
+/* Style the search button */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    height: 33px;
+    width: 150px;
+    position: absolute;
+    left: 86%;
+    bottom: 22%;
+}
+
+/* Make the search container responsive */
+@media (max-width: 768px){}
+    .search-container {
+        flex-direction: column;
+        margin-top: 10px;
+        width: 1000px;
+        align-items: center;
+        position: absolute;
+        right: 20%;
+        top: 35%;
+    }
+    input[type="text"] {
+        width: 100%;
+        margin-bottom: 10px;
+        border-radius: 3px;
+    }
